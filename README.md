@@ -24,7 +24,7 @@ Check out source with
 API
 -----
 
-Take a look at `doc/` directory.
+Take a look at [documentation](http://tdebarochez.github.com/jacasr/).
 
 License
 -------
