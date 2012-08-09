@@ -1,0 +1,10 @@
+{
+  "name":"jacasr",
+  "version":"0.1.0",
+  "node":"0.8.x",
+  "author":"tdebarochez",
+  "main":"./lib/xmpp.js",
+  "dependencies": {
+    "sax": "0.4.2"
+  }
+}
