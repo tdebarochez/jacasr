@@ -29,6 +29,9 @@ Installation
 Usage
 -----
 
+You can find a full featured application with [LePote](http://tdebarochez.github.com/lepote/) bot.
+However this is the basic usage :
+
     var jacasr = require('jacasr');
     var conf = {login: 'user',
                 password: 'pass',
@@ -49,7 +52,7 @@ Usage
 API
 -----
 
-Take a look at [documentation](http://tdebarochez.github.com/jacasr/).
+For the full API, take a look at [documentation](http://tdebarochez.github.com/jacasr/).
 
 License
 -------
