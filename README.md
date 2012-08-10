@@ -32,6 +32,7 @@ Usage
 You can find a full featured application with [LePote](http://tdebarochez.github.com/lepote/) bot.
 However this is the basic usage :
 
+```js
     var jacasr = require('jacasr');
     var conf = {login: 'user',
                 password: 'pass',
@@ -48,6 +49,7 @@ However this is the basic usage :
         this.push(from, 'Good bye !');
       }
     });
+```
 
 API
 -----
