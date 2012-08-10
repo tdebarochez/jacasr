@@ -6,7 +6,7 @@ About
 
 #### Pure JS XMPP library for NodeJS ####
 
-Jacasr is beginnings of a library for [NodeJS](http://nodejs.org) that implements the basics of xmpp protocol
+Jacasr is a library for [NodeJS](http://nodejs.org) that implements the basics of xmpp protocol
 
 Requirements
 ------------
@@ -20,6 +20,31 @@ Grab the code
 Check out source with
 
     $ git clone git://github.com/tdebarochez/jacasr.git
+
+Installation
+------------
+
+`npm install jacasr`
+
+Usage
+-----
+
+    var jacasr = require('jacasr');
+    var conf = {login: 'user',
+                password: 'pass',
+                domain: 'server.com'};
+    var client = new jacasr.Client(conf);
+    client.on('message', function (from, message) {
+      if (/^hi/i.exec(message)) {
+        this.push(from, 'Hi there');
+      }
+      else if (/^how are you/i.exec(message)) {
+        this.push(from, 'Fine and you ?');
+      }
+      else if (/bye/i.exec(message)) {
+        this.push(from, 'Good bye !');
+      }
+    });
 
 API
 -----
