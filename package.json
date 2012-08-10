@@ -1,7 +1,7 @@
 {
   "name":"jacasr",
   "url": "http://github.com/tdebarochez/jacasr",
-  "version":"0.1.0",
+  "version":"0.1.1",
   "node":"0.8.x",
   "author":"tdebarochez",
   "main":"./lib/xmpp.js",
