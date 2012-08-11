@@ -1,5 +1,7 @@
 {
   "name":"jacasr",
+  "description": "Pure JS XMPP library for NodeJS",
+  "keywords" : [ "xmpp", "xmpp-client", "xmpp-library" ],
   "url": "http://github.com/tdebarochez/jacasr",
   "version":"0.1.1",
   "node":"0.8.x",
@@ -7,5 +9,7 @@
   "main":"./lib/xmpp.js",
   "dependencies": {
     "sax": "0.4.2"
-  }
+  },
+  "repository" : {"type" : "git",
+                  "url" : "http://github.com/tdebarochez/jacasr.git"}
 }
