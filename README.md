@@ -1,6 +1,11 @@
 Jacasr
 ======
 
+Warning
+---
+
+Not maintained anymore.
+
 About
 -----
 
